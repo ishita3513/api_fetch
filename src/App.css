@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+
+table,
+caption,
+tr,
+th,
+td {
+  table-layout: fixed;
+  font-family: verdana, sans-serif;
+  padding: 10px 40px;
+  border-collapse: collapse;
+}
+table{
+  width:100%;
+}
+th{
+  text-align: left;
+  color:white;
+  background-color: #08ac6c;
+}
+
+tr:nth-child(even) {
+  background-color: #d8d8d8;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
